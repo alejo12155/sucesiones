@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<script>
+
+
+	function ejecutar() {
+
+	
+		
+
+
+	    a1=Math.floor((Math.random() * (5-1)) +1);
+	    An=Math.floor((Math.random() * (10-5)) +5);
+		n=Math.floor((Math.random() * (7-2)) +2);
+
+		console.log(An);
+		console.log(n);
+		console.log(a1);
+		
+
+		document.getElementById('opcion1').value=a1;
+		document.getElementById('opcion2').value=n;
+		document.getElementById('valor1').innerHTML=An;	
+
+		d= (An-a1)/(n-1);
+
+		
+		console.log(d);
+		
+		
+
+		
+
+	}
+
+			function confirmar1() 
+
+			{
+
+				respuesta1=document.getElementById('respuesta').value;
+			if (respuesta1==d) 
+		{
+			console.log('correcto');
+			document.getElementById('cuadro').innerHTML= "Correcto";	
+		}
+		else
+		{
+			console.log('incorrecto');
+			
+			document.getElementById('cuadro').innerHTML= "incorrecto";
+		}
+		}
+</script>
+
+
+<body>
+	<form method="POST">
+		<center><div class="titulo"><center><h1>Caso 3</h1>(Diferencia)</center></div>
+		<br><br><br><br><br><br><br><br><br><br><br> 
+		<div id="cuadro" style="height:100px; width:320px; background-color: dimgrey; border: solid black 3px; margin-left:1120px; position: absolute; font-size: 70px; margin-top:150px"></div>
+		<div style="height:450px; width:1000px; background-color: blue; border: solid black 3px; margin-left:-300px">
+	<div id="ejercicio1" class="eje1" style="font-size: 30px;"> Señor usuario por favor digite la diferencia de la suceción, si un valor es</div>
+			<div id="valor1" style="height: 100px; width: 50px; background-color: blue; color: red; margin-top: -35px; margin-left: 930px; font-size:35px;"></div>
+		<div style="margin-top: -60px;  font-size:30px"> de la siguiente sucesion</div>
+		
+	<a href="planteamientos.html" style="color: black; font-size: 60px; margin-left: 160px; margin-top:250px; position:absolute;"> Regresar </a>
+		<div style="margin-left: -450px;"><h1>Valor Inicial</h1>
+	<input type="text" name="opcion1" id="opcion1" style="background-color: black; color: white; font-size: 40px; height: 40px; width:45px;"> 
+	<h1>Ubicación</h1>
+	<input type="text" name="opcion2" id="opcion2" style="background-color: black; color: white; font-size: 40px; height: 40px; width:50px;">
+	<br><br>
+	<input type="button" class="boton1" name="enviar" id="generar" value="generar" onclick="ejecutar()" style="margin-top:-5px; margin-left:-70px; height: 50px; width:150px;"></h1></div>
+
+	<br><br>
+	<h1 style="margin-left:700px; margin-top:-300px; position:absolute;">Respuesta</h1>
+	<input type="text" name="respuesta" id="respuesta" style="background-color: black; color: white; font-size: 40px; height: 40px; width:50px; margin-left: 250px; margin-top:-235px; position:absolute;">
+	<input type="button" name="" class="boton1" id="confirmar" value="Enviar Respuesta" onclick="confirmar1()" style="margin-top:-150px; margin-left:170px; height: 50px; width:200px; position: absolute;">
+	</center>
+	</div>
+	</form>
+</body>
+</html>

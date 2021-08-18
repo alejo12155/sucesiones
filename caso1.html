@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>sucesiones</title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<body>
+		<script>
+
+		function ejecutar() {
+			
+		a1=document.getElementById('n1').value;
+		a2=document.getElementById('n2').value;
+		n=document.getElementById('n').value;
+		
+		console.log(n);
+		
+		
+		d=parseInt(a2)-parseInt(a1);
+	
+
+		pos=parseInt(n-1);
+	
+
+		var ope=d*pos;
+		var opera=parseInt(a1)+parseInt(ope);
+		mostrar=document.getElementById('mostrar')
+
+		document.getElementById('a1').innerHTML="An = "+ opera;
+
+		var x=parseInt(a1) + parseInt(d)*(-1);
+	 	console.log(x);
+
+	 	cuadro=document.getElementById('cuadrofor').value;
+
+	 	document.getElementById('cuadrofor').innerHTML="An = " + x + " + " + d+" n " ;
+	}
+
+
+
+
+	</script>
+	<div class="titulo"><center><h1>Caso 1</h1>(Se obtiene un valor de la sucesión)</center></div>
+	<form >
+		<br><br><br><br><br><br><br><br><br><br><br> 
+		<input class="numero1" type="text" name="n1" id="n1" placeholder="valor inicial" style="font-size:30px;">
+		<input class="numero2" type="text" name="n2" id="n2" placeholder="valor siguiente" style="font-size: 30px;">
+		<input class="numero3" type="text" name="ubicacion" id="n" placeholder="Ubicación a Buscar" style="font-size:30px;" >
+		<input type="button" class="boton1" name="enviar" id="enviar" value="Mostrar" onclick="ejecutar()" style="font-size:30px">
+		
+
+		<div class="resultado1" id="cuadrofor" style="font-size: 30px;"></div>
+		
+
+		<div  id="a1" class="resultado" style="font-size: 30px;"></div>
+
+	
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<a href="ejercicios.html" style="color: black; font-size: 60px; margin-left: 230px;"> Regresar </a>
+
+	</form>
+
+
+</body>
+</html>

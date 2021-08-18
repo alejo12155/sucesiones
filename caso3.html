@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>sucesiones</title>
+</head>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<body>
+		<script>
+
+		function ejecutar() {
+			
+		an=document.getElementById('an').value;
+		a1=document.getElementById('a1').value;
+		n=document.getElementById('n').value;
+		
+	  d= (an-a1)/(n-1);			
+
+
+		mostrar=document.getElementById('mostrar')
+
+ 
+	 	console.log(d);
+
+	 	cuadro=document.getElementById('cuadrofor1').value;
+
+	 	document.getElementById('a2').innerHTML="D="+d;
+
+	 	document.getElementById('cuadrofor1').innerHTML="D =" + (an-a1) + "/n-1" ;
+	}
+
+
+
+
+	</script>
+	<div class="titulo"><center><h1>Caso 3</h1>(Se obtiene la diferencia de la sucesión)</center></div>
+	<form >
+		<br><br><br><br><br><br><br><br><br><br><br>
+		<input class="numero1" type="text" name="an" id="an" placeholder="Digite un Valor" style="font-size:30px;">
+		<input class="numero2" type="text" name="a1" id="a1" placeholder="Valor Inicial" style="font-size:30px;">
+		<input class="numero3" type="text" name="n" id="n" placeholder="ubicación a Buscar" style="font-size:30px;">
+		<input type="button" class="boton1" name="enviar" id="enviar" value="Mostrar" onclick="ejecutar()" style="font-size:30px">
+		
+
+		<div class="resultado1" id="cuadrofor1" style="font-size: 30px;"></div>
+		
+
+		<div  id="a2" class="resultado" style="font-size: 30px;"></div>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<a href="ejercicios.html" style="color: black; font-size: 60px; margin-left: 230px;"> Regresar </a>
+
+	</form>
+
+
+</body>
+</html>

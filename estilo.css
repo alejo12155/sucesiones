@@ -1,0 +1,259 @@
+body{
+	background-color: dimgray;
+	font-family: fantasy;
+
+}
+.imagen{
+	position: absolute;
+	 height: 200px; 
+	 width: 300px;
+	 margin-left: 500px;
+	 margin-top: -190px;
+}
+.titulo{
+	margin-top: -60px;
+	margin-left: -20px;
+	height: 240px;
+	width: 1507px;
+	background-color: black;
+	color: whitesmoke;
+	font-size: 35px;
+	position: absolute;
+}
+.definicion{
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 170px;
+	height: 160px;
+	width: 335px;
+	font-size: 20px;
+	background-color: gray;
+	border: solid whitesmoke 3px;
+	font-size: 25px;
+}
+
+.definicion1{
+	margin-top: 60px;
+	margin-left: 600px;
+	background-color: darkred;
+	border:solid black 2px;
+	width: 800px;
+	height: 260px;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+
+}
+.definicion5{
+	margin-top: 70px;
+	margin-left: 600px;
+	background-color: darkblue;
+	border:solid black 2px;
+	width: 800px;
+	height: 260px;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+}
+.definicion6{
+	margin-top: 70px;
+	margin-left: 600px;
+	background-color: black;
+	border:solid white 2px;
+	width: 800px;
+	height: 260px;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+}
+.definicion2{
+	display: none;
+}
+.definicion3{
+	display: none;
+}
+
+.definicion4{
+	display: none;
+}
+
+
+.logica{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 70px;
+	height: 100px;
+	width: 300px;
+	font-size: 20px;
+	background-color: gray;
+	border: solid whitesmoke 3px;
+
+}
+.aritmetica{
+	position: absolute;
+	margin-left: 1050px;
+	margin-top: 70px;
+	height: 100px;
+	width: 300px;
+	font-size: 20px;
+	background-color: gray;
+	border: solid whitesmoke 3px;
+}
+
+.numero1{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 70px;
+	height: 100px;
+	width: 300px;
+	font-size: 25px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+
+.numero2{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 70px;
+	height: 100px;
+	width: 300px;
+	font-size: 25px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+
+.numero3{
+		position: absolute;
+	margin-left: 1000px;
+	margin-top: 70px;
+	height: 100px;
+	width: 300px;
+	font-size: 25px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+
+.numero4{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 70px;
+	height: 100px;
+	width: 300px;
+	font-size: 25px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+
+.numero5{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 70px;
+	height: 100px;
+	width: 300px;
+	font-size: 25px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+
+.numero6{
+		position: absolute;
+	margin-left: 1000px;
+	margin-top: 70px;
+	height: 100px;
+	width: 300px;
+	font-size: 25px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+.boton3
+{
+	position: absolute;
+	margin-left: -450px;
+	margin-top: 210px;
+	height: 50px;
+	width: 200px;
+	font-size: 20px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+.resultado{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: 300px;
+	height: 100px;
+	width: 300px;
+	font-size: 20px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+.definicionc1
+{
+	height: 200px;
+	width: 450px;
+	margin-left: 100px;
+	margin-top: 205px;
+	background-color: white;
+	border-color: dimgray;
+	position: absolute;
+	border: solid gray 5px;
+	font-size: 20px;
+}
+
+.resultado1{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 300px;
+	height: 100px;
+	width: 300px;
+	font-size: 20px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+.boton1
+{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 210px;
+	height: 50px;
+	width: 200px;
+	font-size: 20px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+
+.boton2
+{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 250px;
+	height: 50px;
+	width: 200px;
+	font-size: 20px;
+	background-color: black;
+	border: solid whitesmoke 3px;
+	color: white;
+}
+
+
+.cuadrofor{
+	height: 150px;
+	width: 200px;
+	background-color: orangered;
+	display: block;
+}
+.cuadrofor1{
+	display: none;
+	position: absolute;
+}
+
+
